@@ -1,0 +1,27 @@
+.image-viewer-container {
+  position: relative;
+  height: 100%;
+  & .image {
+    background-color: #ececec;
+    width: 281px;
+    height: 313px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 7px 0px #c1b4b4;
+    &.img1 {
+      position: absolute;
+      z-index: 3;
+    }
+    &.img2 {
+      position: absolute;
+      z-index: 2;
+      top: 30px;
+      left: 30px;
+    }
+    &.img3 {
+      position: absolute;
+      z-index: 1;
+      top: 60px;
+      left: 60px;
+    }
+  }
+}
