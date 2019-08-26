@@ -1,0 +1,17 @@
+@import "../../styles/mixin.scss";
+
+.project2-container {
+  min-height: 500px;
+  display: flex;
+  & .project {
+    width: 50%;
+
+    &.project2 {
+      display: flex;
+      padding-left: 20px;
+      & .wrapper {
+        padding-left: 20%;
+      }
+    }
+  }
+}

@@ -16,16 +16,3 @@ const GridView = ({ item1, item2 }) => {
 }
 
 export default GridView;
-
-// const GridView = ({ item1, item2 }) => {
-//     return (
-//         <Grid container spacing={2}>
-//             <Grid item md={6}>
-//                 {item1}
-//             </Grid>
-//             <Grid item md={6}>
-//                 {item2}
-//             </Grid>
-//         </Grid>
-//     );
-// }
